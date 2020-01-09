@@ -81,7 +81,7 @@ int main () {
 
   return 0;
 }
-/*
+/*  ouToXml
 vector< vector<string> > queryMatrix;
 	vector< vector<string> > OrigQueryMatrix;
 	priority_queue <double> AuxHeap;
