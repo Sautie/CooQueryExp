@@ -15,7 +15,7 @@
 #include "QueryExpansion.h"
 using namespace std;
 
-
+//Query expansion by word co-ocurrence, Miguel Sautie
 int main () {
 
    vector <string> FileList;
