@@ -1,5 +1,5 @@
 #include "QueryExpansion.h"
-
+//Migue Sautie 
 //1 pour ouvrir les dossiers en Windows
 void read_folder(const string& name, vector <string> & list)
 {
@@ -282,7 +282,7 @@ void tokenizer(const string& str, vector<string>& tokens, bool PortStemming, con
 
 }
 
-//15 fonction-Parser pour parcourir tous les documents de chaque fichier, utilise une liste d'etiquettes predeterminées tags1, (par default:"<HEAD>","<TEXT>")
+//15 fonction-Parser pour parcourir tous les documents de chaque fichier, utilise une liste d'etiquettes predeterminÃ©es tags1, (par default:"<HEAD>","<TEXT>")
 //cette fonction utilise les fonctions secondaires: tokenizer, dictionary, SortDictionary , cofreq2
 
 void document_parser(ifstream &infile, map<string, int>& termFreq, set<pairSI, cmp>& termFreqSF, map<string, coTerm>& coTerms, vector<int>& outpp, const set<string>& stoplist = set<string>(), int seuil=10, int dist=15, bool PorterStem=true, bool bseuil=true, bool bothSide=false) {
